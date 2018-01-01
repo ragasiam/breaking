@@ -65,7 +65,7 @@ function recent_post_content(){
 	s += "<div style='float:left'>";
     s += " <a href='"+feed_url+"'>";
     s += "  <img src='https://2.bp.blogspot.com/-L5MTVLORpH8/WROJEjEHE7I/AAAAAAAAHcU/ri1ZpvZuAJQWBq9qQOye-b5KA5e42R8xQCLcB/s1600/rss.gif'";
-    s += " height='25'/>";
+    s += " height='35'/>";
     s += " </a>";
     s += "</div>";
     s += "<div style='float:left; text-align:right; margin-left:0px;'>";
