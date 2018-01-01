@@ -63,7 +63,6 @@ function recent_post_content(){
     if(info_text){
 	s += "<div style='float:left'>";
     s += " <a href='"+feed_url+"'>";
-    s += " height='25'/>";
     s += " </a>";
     s += "</div>";
     s += "<div style='float:left; text-align:right; margin-left:0px;'>";
