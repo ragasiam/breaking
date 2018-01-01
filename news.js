@@ -4,6 +4,7 @@
  *     background_color
  *     border_color
  *     scrolling_speed
+ *     info_text
  *     close_button
  */
 var entries; var feed;
@@ -50,7 +51,7 @@ function recent_post_style(){
     s += "#recent_post{";
   s += "position:absolute;";
     s += "margin:0px;";
-    s += "padding: 0px 2px 2px;";
+    s += "padding: 5px 2px 2px;";
     s += "width:auto;";
     s += "background:#fff;";
     s += "border:1px solid #ddd";
@@ -63,6 +64,8 @@ function recent_post_content(){
     if(info_text){
 	s += "<div style='float:left'>";
     s += " <a href='"+feed_url+"'>";
+    s += "  <img src='https://2.bp.blogspot.com/-L5MTVLORpH8/WROJEjEHE7I/AAAAAAAAHcU/ri1ZpvZuAJQWBq9qQOye-b5KA5e42R8xQCLcB/s1600/rss.gif'";
+    s += " height='25'/>";
     s += " </a>";
     s += "</div>";
     s += "<div style='float:left; text-align:right; margin-left:0px;'>";
