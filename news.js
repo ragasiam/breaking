@@ -52,7 +52,7 @@ function recent_post_style(){
   s += "position:absolute;";
     s += "margin:0px;";
     s += "padding: 5px 2px 2px;";
-    s += "width:1300px;";
+    s += "width:1100px;";
     s += "background:#fff;";
     s += "border:1px solid #ddd";
     s += "}";
