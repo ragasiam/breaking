@@ -69,7 +69,7 @@ function recent_post_content(){
     s += " </a>";
     s += "</div>";
     s += "<div style='float:left; text-align:right; margin-left:0px;'>";
-    s += "சற்று முன்: ";
+    s += "";
     s += "</div>";
     }
     s += "  <marquee style='float:left; margin-left:5px; width:95%' scrollAmount='"+scrolling_speed+"'>";
